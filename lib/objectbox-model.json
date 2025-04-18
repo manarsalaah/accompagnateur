@@ -1,0 +1,160 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5359307590544561833",
+      "lastPropertyId": "9:6696507312390457237",
+      "name": "AudioMessageEntity",
+      "properties": [
+        {
+          "id": "1:6505501338648692902",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8667362915778867675",
+          "name": "path",
+          "type": 9
+        },
+        {
+          "id": "3:7595766843865130974",
+          "name": "isShared",
+          "type": 1
+        },
+        {
+          "id": "4:3707690430734027029",
+          "name": "duration",
+          "type": 8
+        },
+        {
+          "id": "5:5075371693961181471",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "6:5640633355498102174",
+          "name": "extension",
+          "type": 9
+        },
+        {
+          "id": "7:3416627527466033777",
+          "name": "recordedDate",
+          "type": 10
+        },
+        {
+          "id": "8:8505531250225909643",
+          "name": "attachmentId",
+          "type": 9
+        },
+        {
+          "id": "9:6696507312390457237",
+          "name": "audioData",
+          "type": 23
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:3598991388664813455",
+      "lastPropertyId": "9:122568108393872964",
+      "name": "MediaEntity",
+      "properties": [
+        {
+          "id": "1:883839372508696169",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3117565197699824963",
+          "name": "isPhoto",
+          "type": 1
+        },
+        {
+          "id": "3:4664335817315611926",
+          "name": "path",
+          "type": 9
+        },
+        {
+          "id": "4:150232643992240167",
+          "name": "isShared",
+          "type": 1
+        },
+        {
+          "id": "5:8969611348666811825",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "6:6447826183324153595",
+          "name": "extension",
+          "type": 9
+        },
+        {
+          "id": "7:4895033118699136721",
+          "name": "date",
+          "type": 10
+        },
+        {
+          "id": "8:3044654762022514693",
+          "name": "comment",
+          "type": 9
+        },
+        {
+          "id": "9:122568108393872964",
+          "name": "hasComment",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:2690515169041347266",
+      "lastPropertyId": "5:9140180783542424948",
+      "name": "SejourDayEntity",
+      "properties": [
+        {
+          "id": "1:4532774385309432900",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5512715089958351549",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "3:4465489323095154403",
+          "name": "isFirstDay",
+          "type": 1
+        },
+        {
+          "id": "4:9053701080194118973",
+          "name": "isLastDay",
+          "type": 1
+        },
+        {
+          "id": "5:9140180783542424948",
+          "name": "date",
+          "type": 10
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:2690515169041347266",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
